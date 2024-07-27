@@ -10,199 +10,164 @@
 </head>
 <body>
   <div class="blob blob1"></div>
-<div class="blob blob2"></div>
+  <div class="blob blob2"></div>
   <div class="background"></div>
   <div class="blob"></div>
   <div class="interactive"></div>
-    <nav id="desktop-nav">
-        <div class="logo">Portfolio</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Portfolio</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-            </div>
-            <div class="menu-links">
-                    <li><a href="#about"onclick="toggleMenu()">About</a></li>
-                    <li><a href="#experience"onclick="toggleMenu()">Experience</a></li>
-                    <li><a href="#project"onclick="toggleMenu()">Projects</a></li>
-                    <li><a href="#contact"onclick="toggleMenu()">Contact</a></li>
-            </div>
-        </div>
-    </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-                <img src="./assets/Profile.png" alt="Fanele Ngubane profile picture">
-        </div>
-        <div class="section__text">
-            
-            <h1 class="title">Fanele Ngubane</h1>
-            <p class="section__text__p2">Aspiring software developer</p>
-            <div class="btn-container">
-                <button 
-                class="btn btn-color-2"
-                onclick="window.open('./assets/resume-example.pdf')"
-                >
-           Portfolio
-            
-        </button>
-        <button 
-                class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-            </button>
-        </div>
-        <div id="socials-container">
-            <img src="./assets/linkedin.png" 
-            alt="My Linkedin profile" 
-            class="icon" 
-            onclick="location.href='https://linkedin.com/in/fanelengubane'"
-            />
-            <img src="./assets/github.png" 
-            alt="My Github profile" 
-            class="icon" 
-            onclick="location.href='https://github.com/FaneleNgubane'"
-            />
-        </div>    
-    </div>
-    </section>
-    <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="about-details-container">
-                <div class="about-containers">
-                <div class="details-container">
-                  <img 
-                    src="./assets/education.png" 
-                    alt="Education icon"
-                    class="icon"
-                    />
-                    <h3>Experience</h3>
-                    <h3>IT Certification Academy</h3>
-                    <p>1+ years  <br>programming specialist</p>
-                    <p></p>
-                </div>
-                <div class="details-container">
-                <img 
-                    src="./assets/experience.png" 
-                    alt="Experience picture"
-                    class="icon"
-                />
-                <h3>Education</h3>
-                <h3>WeThinkCode_</h3>
-                <h3>IT Certification Academy</h3>
-                <p>NQF level 5 <br>Microsoft Certified </p>
-                </div>
-            </div>
-            <div class="about-text-container">
-              <p>
-
-                Hi there! I'm a WeThinkCode graduate passionate about programming and technology, and fluent in German. I specialize in Java, Python, SQL, Git, Docker, Microsoft Azure, and Kubernetes. My work includes MongoDB databases, and I leverage Azure for web app development, CI/CD, version control, Linux environments, microservices, RESTful APIs, containerization, and automated testing. I excel in problem-solving, communication, collaboration, adaptability, and continuous learning.
-
-                As a programming specialist at the IT Certification Academy, I mentor 30+ students in Microsoft certification for C# and Python. I develop weekly assessments, lead support sessions, and report progress to the CEO and faculty. Managing this cohort is challenging yet fulfilling as I witness their development.              </p>
-          </div>
-        </div>
-    </div>
-</section>
-<section id="project">
-  <div class="experience-details-container">
-  <h1 class="title">Projects</h1>
-    <div class="about-containers">
-      <div class="details-container color-container">
-          <div class="article-container">
-              <h2 class="experience-sub-title project-title">LightShed</h2>
-              <p class="project-description">
-                A Java-based distributed system for a load-shedding schedule website, enhancing inter-process communication, error handling, and public alert systems.
-Key Features:
-Place-Name Service: Provides province and town data.
-Stage Service: Tracks and responds with the current load-shedding stage.
-Schedule Service: Returns load-shedding schedules as JSON data.
-Message Queue: Facilitates communication between services.
-Error Handling: Implements monitoring, logging, and recovery strategies.
-Alert System: Sends alerts via ntfy.
-          </div>
-      </div>
-      <div class="details-container color-container">
-          <div class="article-container">
-              <h2 class="experience-sub-title project-title">Project Two</h2>
-              <p class="project-description">
-                Project Three is a mobile application that showcases my skills in app development and user interface design.
-                Project Three is a mobile application that showcases my skills in app development and user interface design.
-                Project Three is a mobile application that showcases my skills in app development and user interface design.
-                Project Three is a mobile application that showcases my skills in app development and user interface design.
-              </p>
-          </div>
-      </div>
-      <div class="details-container color-container">
-          <div class="article-container">
-              <h2 class="experience-sub-title project-title">Project Three</h2>
-              <p class="project-description">
-                  Project Three is a mobile application that showcases my skills in app development and user interface design.
-                  Project Three is a mobile application that showcases my skills in app development and user interface design.
-                  Project Three is a mobile application that showcases my skills in app development and user interface design.
-                  Project Three is a mobile application that showcases my skills in app development and user interface design.
-              </p>
-          </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="contact">
-  <p class="section__text__p1">Get in Touch</p>
-  <h1 class="title">Contact Me</h1>
-  <div class="contact-info-upper-container">
-    <div class="contact-info-container">
-      <img 
-      src="./assets/email.png" 
-      alt="email icon" 
-      class="icon contact-icon email-icon"
-      />
-      <p><a href="mailto:fanelengubane216@gmail.com">fanelengubane216@gmail.com</a></p>
-    </div>
-    <div class="contact-info-container">
-      <img 
-      src="./assets/linkedin.png" 
-      alt="Linkedin icon" 
-      class="icon contact-icon"
-      />
-      <p><a href="https://www.linkedin.com/in/fanelengubane">Linkedin</a></p>
-    </div>
-    <div class="contact-info-container">
-      <img 
-      src="./assets/Phone 2.jpg" 
-      alt="Linkedin icon" 
-      class="icon contact-icon"
-      />
-      <p><a href="tel:0797724462">0797724462</a></p>
-    </div>
-  </div>
-
-</section>
-<footer>
-  <nav>
-    <div class="nav-links-container">
+  <nav id="desktop-nav">
+    <div class="logo">Portfolio</div>
+    <div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#project">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-    </ul>
+      </ul>
     </div>
   </nav>
-  <p>Copyright &#169 2024 Fanele Ngubane. All Rights Reserved;</p>
-</footer>
-    <script src="./script.js"></script>
-   </body>
+  <nav id="hamburger-nav">
+    <div class="logo">Portfolio</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/Profile.png" alt="Fanele Ngubane profile picture">
+    </div>
+    <div class="section__text">
+      <h1 class="title">Fanele Ngubane</h1>
+      <p class="section__text__p2">Aspiring software developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+          Portfolio
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://linkedin.com/in/fanelengubane'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/FaneleNgubane'" />
+      </div>    
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Experience</h3>
+            <h3>IT Certification Academy</h3>
+            <p>1+ years<br>programming specialist</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience picture" class="icon" />
+            <h3>Education</h3>
+            <h3>WeThinkCode_</h3>
+            <h3>IT Certification Academy</h3>
+            <p>NQF level 5<br>Microsoft Certified</p>
+          </div>
+        </div>
+        <div class="about-text-container">
+          <p>
+            Hi there! I'm a WeThinkCode graduate passionate about programming and technology, and fluent in German. I specialize in Java, Python, SQL, Git, Docker, Microsoft Azure, and Kubernetes. My work includes MongoDB databases, and I leverage Azure for web app development, CI/CD, version control, Linux environments, microservices, RESTful APIs, containerization, and automated testing. I excel in problem-solving, communication, collaboration, adaptability, and continuous learning.
+
+            As a programming specialist at the IT Certification Academy, I mentor 30+ students in Microsoft certification for C# and Python. I develop weekly assessments, lead support sessions, and report progress to the CEO and faculty. Managing this cohort is challenging yet fulfilling as I witness their development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project">
+    <div class="experience-details-container">
+      <h1 class="title">Projects</h1>
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <h2 class="experience-sub-title project-title">LightShed</h2>
+            <p class="project-description">
+              A Java-based distributed system for a load-shedding schedule website, enhancing inter-process communication, error handling, and public alert systems.
+
+              Key Features:
+              Place-Name Service: Provides province and town data.
+              Stage Service: Tracks and responds with the current load-shedding stage.
+              Schedule Service: Returns load-shedding schedules as JSON data.
+              Message Queue: Facilitates communication between services.
+              Error Handling: Implements monitoring, logging, and recovery strategies.
+              Alert System: Sends alerts via ntfy.
+            </p>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <p class="project-description">
+              Project Three is a mobile application that showcases my skills in app development and user interface design.
+              Project Three is a mobile application that showcases my skills in app development and user interface design.
+              Project Three is a mobile application that showcases my skills in app development and user interface design.
+              Project Three is a mobile application that showcases my skills in app development and user interface design.
+            </p>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <p class="project-description">
+              Project Three is a mobile application that showcases my skills in app development and user interface design.
+              Project Three is a mobile application that showcases my skills in app development and user interface design.
+              Project Three is a mobile application that showcases my skills in app development and user interface design.
+              Project Three is a mobile application that showcases my skills in app development and user interface design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:fanelengubane216@gmail.com">fanelengubane216@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/fanelengubane">Linkedin</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/Phone 2.jpg" alt="Linkedin icon" class="icon contact-icon" />
+        <p><a href="tel:0797724462">0797724462</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Fanele Ngubane. All Rights Reserved;</p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
 </html>
